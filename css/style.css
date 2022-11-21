@@ -64,6 +64,9 @@ ul > h5 {
     color: #4ADE80;
 }
 
+.c--gull-gray {
+    
+}
 /* Background color styles */
 .bg--white {
     background-color: #FFFFFF;
@@ -112,6 +115,13 @@ ul > h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.f-col-fs-sb {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .f-row-fs-fs {
@@ -477,4 +487,18 @@ ul > h5 {
     border: 1px solid black;
     margin: 0 auto;
     width: calc(100% - 40px);
+}
+
+.contentarea__stats__charts-vline {
+    width: 100%;
+}
+
+.contentarea__stats__charts-vline > li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #94A3B8;
+    margin-top: 28px;
 }
